@@ -19,7 +19,7 @@ global.admin = ['628999070475@s.whatsapp.net'] // Sesuaikan Nomor Admin
 
 global.prefix = '!'
 
-global.image = './database/image/KucingLucu.jpeg'
+global.image = './database/image/FotoProduk.png'
 
 // Custom Message
 global.mess = {
