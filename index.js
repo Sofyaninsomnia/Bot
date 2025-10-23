@@ -41,7 +41,7 @@ async function question(promt) {
 }
 
 async function connectToWhatsApp() {
-  const { state, saveCreds } = await useMultiFileAuthState('./LenwySesi')
+  const { state, saveCreds } = await useMultiFileAuthState('./SwiftSesi')
   
   // Versi Terbaru
   const { version, isLatest } = await fetchLatestBaileysVersion()
@@ -111,7 +111,7 @@ async function connectToWhatsApp() {
             
         )
 
-        require("./lenwy")(lenwy, m)
+        require("./swift")(lenwy, m)
     })
     
 }

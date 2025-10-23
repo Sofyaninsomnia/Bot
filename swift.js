@@ -2,7 +2,7 @@
 
 // Import Module
 require('./len')
-require('./database/Menu/LenwyMenu')
+require('./database/Menu/SwiftMenu')
 const fs = require('fs');
 const axios = require('axios');
 
